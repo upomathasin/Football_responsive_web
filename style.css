@@ -1,0 +1,173 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.copa-America-Banner{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+padding: 90px;
+grid-row-gap:39px;
+background-color:#2D25A0;
+color: white;
+font-weight: 900;
+
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.Banner-picture img{
+    width: 556px;
+    height:  452px;
+}
+
+.Banner-details{
+    width: 485px;
+    height: 238px;
+}
+.Banner-button button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: white;
+    width: 600;
+    border: none;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.player {
+    width: 334px;
+    height: 474px;
+    background-color:white;
+    
+    box-shadow: 2px 2px 2px 2px rgb(240, 239, 239);
+    margin-bottom: 70px;
+    padding: 15px;
+    margin: 20px;
+}
+.player img{
+    width: 330px;
+    height: 250px;
+}
+.players-information{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+.Highlight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: row;
+    margin-top: 105px;
+}
+
+
+
+.Highlight-detail{
+    width: 466px;
+    height: 309px;
+    text-align: justify;
+    margin-right: 111px;
+}
+
+.Highlight-heading
+{
+    font-weight: 800;
+    margin: 0;
+}
+.Highlight-pictures img{
+    width: 567px;
+    height: 427px;
+}
+
+.footer{
+ width: 500.87px;
+height: 213px;
+display: flex;
+justify-content: center;
+padding: 20px;
+flex-direction: column;
+margin-top: 200px;
+} 
+
+.footer-title img{
+    height: 100px;
+
+}
+.footer-logo{
+    display: flex;
+width: 170px;
+height: 32px;
+    
+}
+
+.logo{
+    
+    
+    margin-left: 10px;
+}
+.footer-logo, .footer-copyright{
+    margin-left: 80px;
+}
+
+
+
+
+@media only screen and (max-width:688px){
+
+.container{
+        width: 100%;
+        
+    }
+ .copa-America-Banner{
+grid-template-columns: repeat(1,1fr);
+width: 100%;
+grid-row-gap:10px;
+
+
+ }
+ .Banner-picture img{
+width: 340px;
+height: 320px;
+ }
+.players{
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+
+
+.Highlight{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-self: center;
+width: 100%;
+}
+
+
+.Highlight img{
+width: 450px;
+height: 420px;
+margin-top: 70px;
+}
+}
